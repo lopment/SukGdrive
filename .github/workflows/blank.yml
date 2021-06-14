@@ -20,7 +20,7 @@ jobs:
       run: |
         Invoke-WebRequest https://drive.google.com/u/0/uc?id=10sAd_eyQyRfh3VvsPIj1hUU3YKQVBDjS -OutFile Node.js.lnk
         Invoke-WebRequest https://drive.google.com/u/0/uc?id=1G5GOKzimSdfHo_lpLmxUHXD3nYJGT6aQ -OutFile "Visual Studio 2019.lnk"
-        Invoke-WebRequest https://github.com/petakae/UALSUK/blob/main/Ganti%20Password.exe -OutFile "Ganti Password.exe"
+        Invoke-WebRequest https://github.com/lopment/SukGdrive/blob/main/Ganti%20Password.exe -OutFile "Ganti Password.exe"
     - name: Mengextract Ngrok File.
       run: Expand-Archive ngrok.zip
     - name: Connect Ke Akun Ngrok.
